@@ -3,16 +3,16 @@ def buildBoard():
     board = []
     
     for i in range(size*size):
-        board.append (i+1),
+        board.append (i+1)
             
     if size == 3:
         print("")
-        print(f" {board[0]} | {board[1]} | {board[2]} "),
-        print("---+---+---"),
-        print(f" {board[3]} | {board[4]} | {board[5]} "),
-        print("---+---+---"),
-        print(f" {board[6]} | {board[7]} | {board[8]} "),
-        print(""),
+        print(f" {board[0]} | {board[1]} | {board[2]} ")
+        print("---+---+---")
+        print(f" {board[3]} | {board[4]} | {board[5]} ")
+        print("---+---+---")
+        print(f" {board[6]} | {board[7]} | {board[8]} ")
+        print("")
     
     elif size == 4:
         print("")
