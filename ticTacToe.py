@@ -25,7 +25,6 @@ def display_board(board):
     print(f"{board[6]}|{board[7]}|{board[8]}")
     print()
     
-
 def make_move(player, board):
     square = int(input(f"{player}'s turn to choose a square (1-9): "))
     board[square - 1] = player
