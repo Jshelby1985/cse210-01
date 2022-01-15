@@ -14,7 +14,7 @@ def main():
     if is_a_draw(board):
         print("Good game. Thanks for playing!") 
     if has_winner(board):
-        print("Winner!!")
+        print(f"Winner is {next_player(player)}!!")
 
 def display_board(board):
     print()
